@@ -1,0 +1,5 @@
+user_numbers = int(input("Введите число положительное число>>>"))
+result_2 = int(f"{user_numbers}{user_numbers}")
+result_3 = int(f"{user_numbers}{user_numbers}{user_numbers}")
+result = int(user_numbers + result_2 + result_3)
+print(f"Результат сложения: {user_numbers}+{result_2}+{result_3} = {result}")
