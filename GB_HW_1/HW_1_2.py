@@ -1,6 +1,9 @@
+# 2. Пользователь вводит время в секундах. Переведите
+# время в часы, минуты и секунды и выведите в
+# формате чч:мм:сс. Используйте форматирование строк.
 second_user = int(input("Введите время в секундах >>>"))
-hour = int(second_user // 3600)
-minutes = int(second_user // 60) % 60
-second = int(second_user % 60)
+hour = int(second_user // 3600) #получаем значение в часах
+minutes = int(second_user // 60) % 60 #получаем отстаток при делении в минутах
+second = int(second_user % 60) #получаем остаток при делении в секундах
 
-print(f"{hour} ч. {minutes} м.  {second} с.")
+print(f"{hour} чч. : {minutes} мм. :  {second} сс.")
