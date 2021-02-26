@@ -9,4 +9,5 @@
 
 source_list = [3, 3, 5, 6, 23, 25, 26, 22, 22, 22, 33, 22, 33, 44]
 result_list = [i for i in source_list if source_list.count(i) < 2]
-print(result_list)
+print(f"Исходный список \n {source_list} \n")
+print(f"Элементы списка, которые не повторяются \n {result_list}")

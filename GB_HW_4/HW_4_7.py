@@ -20,7 +20,7 @@ def factorialis_gen():
 generator = factorialis_gen()
 n = 0
 for result in generator:
-    if n < 10:
+    if n < 4:
         print(result)
         n += 1
     else:
